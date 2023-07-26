@@ -22,13 +22,14 @@
       theme: {
         extend: {
           colors: {
-            clifford: "#da373d",
+            'fruit-primary': '#F85559',
             "color-primary": "#F85559",
-            "text-primary": "#121212",
-          },
-        },
-      },
-    };
+
+
+          }
+        }
+      }
+    }
   </script>
 
 
@@ -120,12 +121,10 @@
     <!-- banner area start -->
 
     <section class="px-6 lg:px-0">
-
-      <!-- carousel start -->
       <div class="carousel w-full rounded-xl ">
         <div id="slide1" class="carousel-item relative w-full">
 
-          <!-- hero 1 -->
+          <!-- Slide 1 Start -->
           <div class="hero min-h-screen" style="background-image: url(./images/banner1.png);">
             <div class="hero-overlay bg-opacity-60"></div>
             <div class="hero-content text-center text-neutral-content">
@@ -138,7 +137,7 @@
               </div>
             </div>
           </div>
-          <!-- hero 1 end -->
+          <!-- Slide 1 END -->
 
           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide4" class="btn btn-circle">❮</a>
@@ -147,7 +146,7 @@
         </div>
         <div id="slide2" class="carousel-item relative w-full">
 
-          <!-- hero 2 -->
+          <!-- Slide 2 Start -->
           <div class="hero min-h-screen" style="background-image: url(./images/banner2.png);">
             <div class="hero-overlay bg-opacity-60"></div>
             <div class="hero-content text-center text-neutral-content">
@@ -160,7 +159,7 @@
               </div>
             </div>
           </div>
-          <!-- hero 2 end -->
+          <!-- Slide 2 END -->
 
           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide1" class="btn btn-circle">❮</a>
@@ -169,7 +168,7 @@
         </div>
         <div id="slide3" class="carousel-item relative w-full">
 
-          <!-- hero 3 -->
+          <!-- Slide 3 Start -->
           <div class="hero min-h-screen" style="background-image: url(./images/banner3.png);">
             <div class="hero-overlay bg-opacity-60"></div>
             <div class="hero-content text-center text-neutral-content">
@@ -182,7 +181,7 @@
               </div>
             </div>
           </div>
-          <!-- hero 3 end -->
+          <!-- Slide 3 END -->
 
           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide2" class="btn btn-circle">❮</a>
@@ -191,7 +190,7 @@
         </div>
         <div id="slide4" class="carousel-item relative w-full">
 
-          <!-- hero 4 -->
+          <!-- Slide 4 Start -->
           <div class="hero min-h-screen" style="background-image: url(./images/banner4.png);">
             <div class="hero-overlay bg-opacity-60"></div>
             <div class="hero-content text-center text-neutral-content">
@@ -204,7 +203,7 @@
               </div>
             </div>
           </div>
-          <!-- hero 4 end -->
+          <!-- Slide 4 END -->
 
           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide3" class="btn btn-circle">❮</a>
@@ -214,62 +213,57 @@
       </div>
 
     </section>
-    <!-- carousel end -->
+    <!-- Carousel END Here -->
 
-    <!-- fruits box area start -->
+    <!-- Fruit box area start -->
 
     <section class="px-6 lg:px-0 hidden lg:block">
 
       <div
         class=" bg-white font-bold text-text-primary lg:mx-auto md:flex gap-8 p-5 rounded-lg drop-shadow-lg  md:w-[100%] lg:w-[80%] lg:-m-24">
 
-        <!-- fruit 1 -->
+        <!-- Fruit 1 -->
         <div class="justify-center items-center flex flex-col flex-1 ">
           <img src="./images/grapes.png" alt="">
           <p class="py-2">Grapes</p>
         </div>
 
-        <!-- fruit 2 -->
+        <!-- Fruit 2 -->
         <div class="justify-center items-center flex flex-col flex-1">
           <img src="./images/orange.png" alt="">
           <p class="py-2">Orange</p>
         </div>
 
-        <!-- fruit 3 -->
+        <!-- Fruit 3 -->
         <div class="justify-center items-center flex flex-col flex-1">
           <img src="./images/mango.png" alt="">
           <p class="py-2">Mango</p>
         </div>
 
-        <!-- fruit 4 -->
+        <!-- Fruit 4 -->
         <div class="justify-center items-center flex flex-col flex-1">
           <img src="./images/strawberry.png" alt="">
           <p class="py-2">Strawberry</p>
         </div>
 
-        <!-- fruit 5 -->
+        <!-- Fruit 5 -->
         <div class="justify-center items-center flex flex-col flex-1">
           <img src="./images/pomegranate.png" alt="">
           <p class="py-2">Pomegranate</p>
         </div>
       </div>
     </section>
-
-    <!-- fruits box are end -->
-
-    <!-- banner area end -->
-
   </header>
-  <main class="container mx-auto px-6 lg:px-0 mt-20 lg:mt-44">
-    <!-- countdown start  -->
 
+  <main class="container mx-auto px-6 lg:px-0 mt-20 lg:mt-44">
+    
     <!-- Countdown Section Here -->
 
     <section class=" my-20 lg:my-40">
       <div class="lg:flex justify-between ">
         <div class="text-center lg:text-start mb-5">
           <h1 class="font-extrabold text-4xl pb-5 lg:pb-0">Deal of the day</h1>
-          <p class="lg:w-[610px]">Contrary to popular belief, is not simply random text. It
+          <p class="pt-5 lg:w-[610px]">Contrary to popular belief, is not simply random text. It
             has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years.</p>
         </div>
 
@@ -324,11 +318,11 @@
               <input type="radio" name="rating-2" class="mask mask-star-2 bg-fruit-primary" />
             </div>
             <div class="card-actions">
-              <!-- Open the modal using ID.showModal() method -->
+
               <a class="cursor-pointer text-fruit-primary" onclick="fruit_1.showModal()">Details</a>
               <dialog id="fruit_1" class="modal modal-bottom sm:modal-middle">
                 <form method="dialog" class="modal-box">
-                  <!-- Card Inside Modal -->
+
                   <div class="card w-auto bg-base-100">
                     <div class="items-center text-center">
                       <figure class="items-center text-center">
@@ -345,7 +339,7 @@
                           <input type="radio" name="rating-2" class="mask mask-star-2 bg-fruit-primary" />
                         </div>
                         <div class="modal-action flex">
-                          <!-- if there is a button in form, it will close the modal -->
+
                           <button class="btn text-fruit-primary border-fruit-primary">Close</button>
                           <button class="btn bg-fruit-primary text-white">Buy Now</button>
                         </div>
@@ -375,11 +369,11 @@
               <input type="radio" name="rating-2" class="mask mask-star-2 bg-fruit-primary" />
             </div>
             <div class="card-actions">
-              <!-- Open the modal using ID.showModal() method -->
+
               <a class="cursor-pointer text-fruit-primary" onclick="fruit_2.showModal()">Details</a>
               <dialog id="fruit_2" class="modal modal-bottom sm:modal-middle">
                 <form method="dialog" class="modal-box">
-                  <!-- Card Inside Modal -->
+
                   <div class="card w-auto bg-base-100">
                     <div class="items-center text-center">
                       <figure class="items-center text-center">
@@ -396,7 +390,7 @@
                           <input type="radio" name="rating-2" class="mask mask-star-2 bg-fruit-primary" />
                         </div>
                         <div class="modal-action flex">
-                          <!-- if there is a button in form, it will close the modal -->
+
                           <button class="btn text-fruit-primary border-fruit-primary">Close</button>
                           <button class="btn bg-fruit-primary text-white">Buy Now</button>
                         </div>
@@ -426,7 +420,7 @@
               <input type="radio" name="rating-2" class="mask mask-star-2 bg-fruit-primary" />
             </div>
             <div class="card-actions">
-              <!-- Open the modal using ID.showModal() method -->
+
               <a class="cursor-pointer text-fruit-primary" onclick="fruit_3.showModal()">Details</a>
               <dialog id="fruit_3" class="modal modal-bottom sm:modal-middle">
                 <form method="dialog" class="modal-box">
@@ -447,7 +441,6 @@
                           <input type="radio" name="rating-2" class="mask mask-star-2 bg-fruit-primary" />
                         </div>
                         <div class="modal-action flex">
-                          <!-- if there is a button in form, it will close the modal -->
                           <button class="btn text-fruit-primary border-fruit-primary">Close</button>
                           <button class="btn bg-fruit-primary text-white">Buy Now</button>
                         </div>
@@ -477,7 +470,7 @@
               <input type="radio" name="rating-2" class="mask mask-star-2 bg-fruit-primary" />
             </div>
             <div class="card-actions">
-              <!-- Open the modal using ID.showModal() method -->
+
               <a class="cursor-pointer text-fruit-primary" onclick="fruit_4.showModal()">Details</a>
               <dialog id="fruit_4" class="modal modal-bottom sm:modal-middle">
                 <form method="dialog" class="modal-box">
@@ -487,6 +480,7 @@
                       <figure class="items-center text-center">
                         <img src="./images/fruit4.png" alt="Fruit-9" />
                       </figure>
+
                       <div class="card-body items-center text-center">
                         <h1 class="text-xl font-extrabold">Banana</h1>
                         <p>Professional employees are there for you to pick the most amazing and fresh fruits.</p>
@@ -498,11 +492,11 @@
                           <input type="radio" name="rating-2" class="mask mask-star-2 bg-fruit-primary" />
                         </div>
                         <div class="modal-action flex">
-                          <!-- if there is a button in form, it will close the modal -->
                           <button class="btn text-fruit-primary border-fruit-primary">Close</button>
                           <button class="btn bg-fruit-primary text-white">Buy Now</button>
                         </div>
                       </div>
+                      
                     </div>
                   </div>
                 </form>
@@ -521,7 +515,7 @@
         <div class="hero-content text-center text-neutral-content">
 
           <section>
-            <div class="pt-28 lg:pt-40">
+            <div class="pt-28 lg:pt-20">
               <h1 class="text-2xl font-semibold text-center text-white capitalize lg:text-5xl">Meet Our Team</h1>
 
               <p class="max-w-2xl mx-auto my-6 text-center text-white">
@@ -617,13 +611,14 @@
     </section>
 
     <!-- why you choose us -->
-    <div class="flex flex-col gap-6 justify-center items-center text-center mb-16 md:mb-24 lg:mb-36">
+    <div class="flex flex-col gap-6 justify-center items-center text-center mb-16 md:mb-24 lg:mb-36 my-20">
       <h1 class="text-5xl font-bold">Why Choose Us</h1>
-      <p class="text-gray-500">Contrary to popular belief, is not simply random text. It has roots in a piece of classical<br> Latin literature from 45 BC, making it over 2000 years old.</p>
+      <p class="text-gray-500">Contrary to popular belief, is not simply random text. It has roots in a piece of
+        classical<br> Latin literature from 45 BC, making it over 2000 years old.</p>
       <div class="grid grid-cols-1 lg:grid-cols-3 order-2 lg:order-1 gap-4">
         <div class="flex flex-col gap-12">
           <div class="flex flex-col lg:flex-row gap-6 items-center lg:items-start">
-            <div><img src="images/circle1.png" alt=""></div>  
+            <div><img src="images/circle1.png" alt=""></div>
             <div class="flex flex-col items-center lg:items-start text-center lg:text-left gap-2">
               <h3 class="text-2xl font-bold">Dedicated Team</h3>
               <hr class="w-24 border-black">
@@ -631,7 +626,7 @@
             </div>
           </div>
           <div class="flex flex-col lg:flex-row gap-6 items-center lg:items-start">
-            <div><img src="images/circle2.png" alt=""></div>  
+            <div><img src="images/circle2.png" alt=""></div>
             <div class="flex flex-col items-center lg:items-start text-center lg:text-left gap-2">
               <h3 class="text-2xl font-bold">Fresh is Best</h3>
               <hr class="w-24 border-black">
@@ -639,7 +634,7 @@
             </div>
           </div>
           <div class="flex flex-col lg:flex-row gap-6 items-center lg:items-start">
-            <div><img src="images/circle3.png" alt=""></div>  
+            <div><img src="images/circle3.png" alt=""></div>
             <div class="flex flex-col items-center lg:items-start text-center lg:text-left gap-2">
               <h3 class="text-2xl font-bold">Gift Certificates</h3>
               <hr class="w-24 border-black">
@@ -652,7 +647,7 @@
         </div>
         <div class="flex flex-col gap-12 order-3">
           <div class="flex flex-col lg:flex-row-reverse gap-6 items-center lg:items-start">
-            <div><img src="images/circle4.png" alt=""></div>  
+            <div><img src="images/circle4.png" alt=""></div>
             <div class="flex flex-col items-center lg:items-end text-center lg:text-end gap-2">
               <h3 class="text-2xl font-bold">Integrated Supplier</h3>
               <hr class="w-24 border-black">
@@ -660,7 +655,7 @@
             </div>
           </div>
           <div class="flex flex-col lg:flex-row-reverse gap-6 items-center lg:items-start">
-            <div><img src="images/circle5.png" alt=""></div>  
+            <div><img src="images/circle5.png" alt=""></div>
             <div class="flex flex-col items-center lg:items-end text-center lg:text-end gap-2">
               <h3 class="text-2xl font-bold">Sustainable Practice</h3>
               <hr class="w-24 border-black">
@@ -668,7 +663,7 @@
             </div>
           </div>
           <div class="flex flex-col lg:flex-row-reverse gap-6 items-center lg:items-start">
-            <div><img src="images/circle6.png" alt=""></div>  
+            <div><img src="images/circle6.png" alt=""></div>
             <div class="flex flex-col items-center lg:items-end text-center lg:text-end gap-2">
               <h3 class="text-2xl font-bold">The Benefits Only</h3>
               <hr class="w-24 border-black">
@@ -678,7 +673,7 @@
         </div>
       </div>
     </div>
-  </div>
+    </div>
 
   </main>
   <footer>
@@ -688,22 +683,22 @@
         <a class="btn btn-ghost normal-case text-4xl">Fruit Burst</a>
       </div>
       <div class="flex flex-wrap justify-center gap-7">
-        <a class="link link-hover">Home</a> 
-        <a class="link link-hover">About Us</a> 
-        <a class="link link-hover">Shop</a> 
+        <a class="link link-hover">Home</a>
+        <a class="link link-hover">About Us</a>
+        <a class="link link-hover">Shop</a>
         <a class="link link-hover">All Fruits</a>
-        <a class="link link-hover">Support</a> 
+        <a class="link link-hover">Support</a>
         <a class="link link-hover">My Account</a>
-      </div> 
+      </div>
       <div>
-        <div class="flex flex-wrap justify-center gap-5">
+        <div class="flex flex-wrap justify-center gap-5 ">
           <a href=""><i class="fa-brands fa-facebook"></i></a>
           <a href=""><i class="fa-brands fa-square-twitter"></i></a>
           <a href=""><i class="fa-brands fa-linkedin"></i></a>
           <a href=""><i class="fa-brands fa-instagram"></i></a>
           <a href=""><i class="fa-brands fa-apple"></i></a>
         </div>
-      </div> 
+      </div>
     </footer>
   </footer>
 </body>
